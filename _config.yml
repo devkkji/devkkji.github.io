@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: let me do it
+title: let me do it!
 email: wldnjs0354@gmail.com
 author: kkjidev
 
@@ -40,14 +40,12 @@ author: kkjidev
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) 2017-{currentYear} {author}"
+copyright: "Copyright (c) 2021-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  어제보다 한발짝 더 나은 오늘을 위한 kkji의 개발 블로그
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
@@ -66,7 +64,7 @@ yat:
 # content_width: "920px"
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: [G-SLEPZ7B5FP]
 
 # If you want to generate website sitemap, you can set true
 sitemap: true
@@ -146,19 +144,19 @@ night_mode: "auto"
 
 # If you want to link only specific pages in you  r header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
+header_pages:
+   - index.html
 #   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+   - categories.html
+   - tags.html
+   - about.html
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "kkji's dev-log"
+    subheading: "둔마라도 천리를 가는 것은 쉬지 않는 덕이다"
+    banner: "/assets/images/banners/banff.jpeg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -183,8 +181,8 @@ night_mode: "auto"
 paginate: 5
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "https-devkkji-github-io"
 
 # Gitment comments
 # gitment:
