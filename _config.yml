@@ -182,8 +182,8 @@ paginate: 5
 
 # Disqus comments
 
-disqus:
-  shortname: "https-devkkji-github-io"
+#disqus:
+#  shortname: "https-devkkji-github-io"
 
 # Gitment comments
 # gitment:
