@@ -156,7 +156,7 @@ defaults:
   home:
     heading: "kkji's dev-log"
     subheading: "둔마라도 천리를 가는 것은 쉬지 않는 덕이다"
-    banner: "/assets/images/banners/banff.jpeg"
+    banner: "/assets/images/banners/banff.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
